@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Focus Lock</title>
+
+  <link rel="stylesheet" href="../css/popup.css">
+</head>
+<body>
+
+  <div class="container">
+    <div id="status" class="status inactive">Focus Inactive</div>
+
+    <div class="custom-time">
+        <input type="number" id="hours" min="0" placeholder="HH">
+        <span>:</span>
+        <input type="number" id="minutes" min="0" max="59" placeholder="MM">
+        <span>:</span>
+        <input type="number" id="seconds" min="0" max="59" placeholder="SS">
+    </div>
+
+
+    <button id="startFocus">Start Focus</button>
+
+    <p class="note">Once started, focus cannot be stopped.</p>
+  </div>
+
+  <script src="../js/popup.js"></script>
+
+</body>
+</html>

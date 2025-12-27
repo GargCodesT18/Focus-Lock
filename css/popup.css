@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 250px;
+  background: #111;
+  font-family: system-ui, sans-serif;
+  color: #eaeaea;
+}
+
+.container {
+  background: #1a1a1a;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+/* STATUS */
+.status {
+  text-align: center;
+  font-size: 13px;
+  padding: 6px;
+  margin-bottom: 12px;
+  background: #2a2a2a;
+  border-radius: 6px;
+  color: #aaa;
+}
+
+.status.active {
+  background: #1f3d2b;
+  color: #4caf50;
+}
+
+/* TIME INPUT */
+.custom-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.custom-time input {
+  width: 45px;
+  padding: 6px 0;
+  text-align: center;
+  background: #111;
+  border: 1px solid #333;
+  color: #eee;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.custom-time span {
+  color: #777;
+}
+
+/* BUTTON */
+button {
+  width: 100%;
+  padding: 8px;
+  background: #2d2d2d;
+  border: 1px solid #444;
+  color: #eee;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+button:hover {
+  background: #3a3a3a;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* NOTE */
+.note {
+  font-size: 11px;
+  color: #888;
+  margin-top: 8px;
+  text-align: center;
+}
